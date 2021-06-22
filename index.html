@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyView 網路溫度計 - 時事網路大數據分析 | DailyView 網路溫度計</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <!-- fontawesome 外部CDN -->
+    <script src="https://kit.fontawesome.com/bbaa1290f7.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- 電腦板MENU區塊 -->
+    <header class="desk-nav d-none d-xl-block sticky-top">
+        <div class="nav-wrap">
+            <!-- 上面BAR -->
+            <div class="top-wrap ">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="top-left">
+                            <span>台灣版</span>
+                            <span>香港版</span>
+                        </div>
+                        <div class="top-right d-flex align-items-center">
+                            <div class="fblink"><img src="./images/icon_fb.png" alt=""></div>
+                            <div class="iglink"><img src="./images/icon_ig.png" alt=""></div>
+                            <div class="yulink"><img src="./images/icon_youtube.png" alt=""></div>
+                            <div class="lilink"><img src="./images/icon_line.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 下面BAR -->
+            <div class="bottom-wrap">
+                <div class="container position-relative">
+                    <div class="row justify-content-between">
+                        <div class="logo"><img src="./images/logo.png" alt=""></div>
+                        <div class="nav-bar">
+                            <div class="d-flex flex-column align-items-end">
+                                <ul class="top-nav d-flex align-items-center">
+                                    <li class="search d-flex align-items-center">
+                                        <input type="text" placeholder="搜尋每日調查 網路爆紅">
+                                        <img src="./images/top_search_icon.png" alt="">
+                                    </li>
+                                    <li class="item01">人才招募</li>
+                                    <li class="item02">點我訂閱</li>
+                                    <li class="itemlogo01"><img src="./images/fansdo_logo_i.png" alt=""></li>
+                                    <li class="itemlogo02"><img src="./images/top_keypo_link2.png" alt=""></li>
+                                    <li class="itemlogo03"><img src="./images/keyders_logo_s.png" alt=""></li>
+                                    <li class="itemlogo04"><img src="./images/fanti_logo.png" alt=""></li>
+                                </ul>
+                                <ul class="main-nav d-flex align-items-center">
+                                    <li class="item01"><span>每日調查</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item02"><span>網路爆紅</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item03"><span>新聞</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item04"><span>特別報導</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item05"><span>網路口碑</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item06"><span>熱文榜</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item07"><span>數據研究室</span><i class="fas fa-angle-right"></i></li>
+                                    <li class="item08">圖文吧</li>
+                                    <li class="item09">影音專區</li>
+                                    <li class="item10">大數據</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+    <!-- 手機板MENU區塊 -->
+    <header class="mobile-nav d-xl-none sticky-top">
+        <div class="nav-wrap">
+            <!-- 上面BAR 隱藏-->
+            <div class="top-wrap ">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="top-left">
+                            <span>台灣版</span>
+                            <span>香港版</span>
+                        </div>
+                        <div class="top-right d-flex align-items-center">
+                            <div class="fblink"><img src="./images/icon_fb.png" alt=""></div>
+                            <div class="iglink"><img src="./images/icon_ig.png" alt=""></div>
+                            <div class="yulink"><img src="./images/icon_youtube.png" alt=""></div>
+                            <div class="lilink"><img src="./images/icon_line.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 下面BAR -->
+            <div class="bottom-wrap">
+                <div class="logo"><img src="./images/logo.png" alt=""></div>
+                <div class="nav-bar">
+                    <div class="d-flex flex-column align-items-end">
+                        <ul class="top-nav d-flex align-items-center">
+                            <li class="search d-flex align-items-center">
+                                <input type="text" placeholder="搜尋每日調查 網路爆紅">
+                                <img src="./images/top_search_icon.png" alt="">
+                            </li>
+                            <li class="item01">人才招募</li>
+                            <li class="item02">點我訂閱</li>
+                            <li class="itemlogo01"><img src="./images/fansdo_logo_i.png" alt=""></li>
+                            <li class="itemlogo02"><img src="./images/top_keypo_link2.png" alt=""></li>
+                            <li class="itemlogo03"><img src="./images/keyders_logo_s.png" alt=""></li>
+                            <li class="itemlogo04"><img src="./images/fanti_logo.png" alt=""></li>
+                        </ul>
+                        <ul class="main-nav d-flex align-items-center">
+                            <li class="item01"><span>每日調查</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item02"><span>網路爆紅</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item03"><span>新聞</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item04"><span>特別報導</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item05"><span>網路口碑</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item06"><span>熱文榜</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item07"><span>數據研究室</span><i class="fas fa-angle-right"></i></li>
+                            <li class="item08">圖文吧</li>
+                            <li class="item09">影音專區</li>
+                            <li class="item10">大數據</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 手機板選單bt -->
+                <div class="slide-nav-btn">
+                    <a href="">
+                        <div class="menu-trigger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 手機板紅色選單BAR -->
+    <div class="red-bar-wrap d-xl-none">
+        <div class="red-bar-item rb-item01">
+            <p>每日調查</p>
+        </div>
+        <div class="red-bar-item rb-item02">
+            <p>網路爆紅</p>
+        </div>
+        <div class="red-bar-item rb-item03">
+            <p>網路口碑</p>
+        </div>
+    </div>
+
+    <!-- share icon -->
+    <section class="share-icon-wrap">
+        <div class="container">
+            <div class="share-icon-list row flex-row justify-content-center flex-xl-column">
+                <div class="share-icon-item"><img src="./images/social_fb.png" alt=""></div>
+                <div class="share-icon-item"><img src="./images/social_line.png" alt=""></div>
+                <div class="share-icon-item"><img src="./images/social_msg.png" alt=""></div>
+                <div class="share-icon-item"><img src="./images/goTop.png" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 大小Banner輪播 -->
+    <section class="banner-carousel-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- 大banner -->
+                <div id="carouselExampleControls" class="big-banner col-12 col-md-10 col-lg-8 col-xl-8 px-2 carousel slide"
+                    data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active position-relative">
+                            <img src="./images/big-banner01.jpg" class="d-block w-100" alt="...">
+                            <div class="banner-text d-flex flex-column flex-xl-row justify-content-xl-between">
+                                <div class="banner-title ">
+                                    <p>香脆多汁、原味淋醬都必嚐！全台網路熱議十大韓式炸雞店</p>
+                                </div>
+                                <div class="banner-info ">
+                                    <p>2012/02/16</p>
+                                    <p><span>1,984</span>點閱</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="./images/big-banner02.jpg" class="d-block w-100" alt="...">
+                            <div class="banner-text d-flex flex-column flex-xl-row justify-content-xl-between">
+                                <div class="banner-title">
+                                    <p>《哲仁王后》看不夠爽？20大「類穿越韓劇」燒腦奇幻戀愛通通有</p>
+                                </div>
+                                <div class="banner-info">
+                                    <p>2012/02/15</p>
+                                    <p><span>3,317</span>點閱</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="./images/big-banner03.jpg" class="d-block w-100" alt="...">
+                            <div class="banner-text d-flex flex-column flex-xl-row justify-content-xl-between">
+                                <div class="banner-title">
+                                    <p>送這些小心被誤會！10大「曖昧系禮物」背後暗示超母湯</p>
+                                </div>
+                                <div class="banner-info">
+                                    <p>2012/02/14</p>
+                                    <p><span>3,656</span>點閱</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="./images/big-banner04.jpg" class="d-block w-100" alt="...">
+                            <div class="banner-text d-flex flex-column flex-xl-row justify-content-xl-between">
+                                <div class="banner-title">
+                                    <p>讓「斷捨離」變得好簡單！十大出清管道助你揮別過去</p>
+                                </div>
+                                <div class="banner-info">
+                                    <p>2012/02/13</p>
+                                    <p><span>3,791</span>點閱</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="./images/big-banner05.jpg" class="d-block w-100" alt="...">
+                            <div class="banner-text d-flex flex-column flex-xl-row justify-content-xl-between">
+                                <div class="banner-title">
+                                    <p>當紅虛擬偶像別只知道Peko！網友熱議20大台灣VTuber來了</p>
+                                </div>
+                                <div class="banner-info">
+                                    <p>2012/02/12</p>
+                                    <p><span>5,612</span>點閱</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- 小banner -->
+                <div id="carouselExampleIndicators"
+                    class="small-banner d-none d-xl-block col-xl-4 carousel slide pl-xl-3 " data-ride="carousel">
+                    <div class="s-banner-title">
+                        <p>網路爆紅</p>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active s-banner">
+                            <div class="s-banner-pic"><img src="./images/s-banner01.jpg" class="d-block w-100"
+                                    alt="..."></div>
+                            <div class="s-banner-info">
+                                <p>過年不想自己煮！5大「新時代團圓餐」一樣能有餐廳般的高級享受</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item s-banner">
+                            <div class="s-banner-pic"><img src="./images/s-banner02.jpg" class="d-block w-100"
+                                    alt="..."></div>
+                            <div class="s-banner-info">
+                                <p>民眾熱議3大補助！2021電動機車補助回歸　北市搶先公布汰購1萬9千元大紅包</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item s-banner">
+                            <div class="s-banner-pic"><img src="./images/s-banner03.jpg" class="d-block w-100"
+                                    alt="..."></div>
+                            <div class="s-banner-info">
+                                <p>防疫新生活抗3C藍光！網友熱議「護眼神片」聲量爆衝</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item s-banner">
+                            <div class="s-banner-pic"><img src="./images/s-banner04.jpg" class="d-block w-100"
+                                    alt="..."></div>
+                            <div class="s-banner-info">
+                                <p>錢花得巧更快樂！把握「3大女性購物節」　讓你爆買一波不手軟</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item s-banner">
+                            <div class="s-banner-pic"><img src="./images/s-banner05.jpg" class="d-block w-100"
+                                    alt="..."></div>
+                            <div class="s-banner-info">
+                                <p>安全糾察隊！5大汽座眉角爸媽們一次也不能做錯</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 查詢口碑 -->
+    <section class="search-bar-warp">
+        <div class="container">
+            <div class="search-bar d-flex justify-content-center align-items-end w-xl-75 mx-auto my-5 ">
+                <div class="search-text d-none d-xl-block">
+                    <p>查詢你的<span>網路口碑</span></p>
+                </div>
+                <div class="search-input d-flex">
+                    <input type="text" placeholder="查詢你的網路口碑">
+                    <div class="icon"><i class="fas fa-search"></i></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 網路口碑 -->
+    <section class="top100-wrap">
+        <div class="container">
+            <div class="row top100-wrap">
+                <div class="top100-title">
+                    <div class="titleline"></div>
+                    <div class="titletext">
+                        <p>網路口碑</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row top100-wrap">
+                <div class="top100-arrow d-none d-xl-block">
+                    <div class="prev"><img src="./images/arrow_prev.png" alt=""></div>
+                </div>
+                <div class="top100box col-12 col-xl-4 px-3 px-xl-1">
+                    <div class="top100title">
+                        <p>人物
+                            <i class="fas fa-caret-right"></i>
+                            <span>YouTuber</span>
+                        </p>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>1</h2>
+                                <div class="rank-mark"><img src="./images/m_no1.png" alt=""></div>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic01.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">蔡阿嘎</p>
+                                <div class="evaluation-bar01 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>32</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>63</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>5</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>135,250</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>2</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic02.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">蔡桃貴</p>
+                                <div class="evaluation-bar02 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>31</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>62</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>7</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>134,864</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>3</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic03.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">愛莉莎莎 Alisasa</p>
+                                <div class="evaluation-bar03 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>19</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>62</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>19</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>108,495</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top100box d-none d-xl-block col-xl-4 px-xl-1">
+                    <div class="top100title">
+                        <p>人物
+                            <i class="fas fa-caret-right"></i>
+                            <span>立法委員</span>
+                        </p>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>1</h2>
+                                <div class="rank-mark"><img src="./images/m_no1.png" alt=""></div>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic04.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">陳柏惟</p>
+                                <div class="evaluation-bar04 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>4</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>70</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>26</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>251,007</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>2</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic05.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">江啓臣</p>
+                                <div class="evaluation-bar05 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>14</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>59</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>27</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>222,222</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>3</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic06.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">高嘉瑜</p>
+                                <div class="evaluation-bar06 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>11</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>64</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>25</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>180,039</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top100box d-none d-xl-block col-xl-4 px-xl-1">
+                    <div class="top100title">
+                        <p>人物
+                            <i class="fas fa-caret-right"></i>
+                            <span>地方首長</span>
+                        </p>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>1</h2>
+                                <div class="rank-mark"><img src="./images/m_no1.png" alt=""></div>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic07.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">柯文哲</p>
+                                <div class="evaluation-bar07 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>15</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>59</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>26</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>598,113</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>2</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic08.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">陳其邁</p>
+                                <div class="evaluation-bar08 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>17</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>60</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>23</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>205,340</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="top100-content">
+                        <div class="up-content d-flex">
+                            <div class="ranking">
+                                <h2>3</h2>
+                            </div>
+                            <div class="top100-pic">
+                                <img src="./images/top100-pic09.jpg" alt="">
+                            </div>
+                            <div class="top100-info">
+                                <p class="name">盧秀燕</p>
+                                <div class="evaluation-bar09 d-flex">
+                                    <div class="good"></div>
+                                    <div class="neutral"></div>
+                                    <div class="bad"></div>
+                                </div>
+                                <div class="evaluation-text d-flex justify-content-around">
+                                    <div class="good-text">
+                                        <p>正面<span>17</span>%</p>
+                                    </div>
+                                    <div class="neutral-text">
+                                        <p>中立<span>59</span>%</p>
+                                    </div>
+                                    <div class="bad-text">
+                                        <p>負面<span>24</span>%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="down-content d-flex justify-content-between">
+                            <div class="amount">
+                                <p><span>144,930</span>篇</p>
+                            </div>
+                            <div class="more">
+                                <img src="./images/more.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="top100-arrow d-none d-xl-block">
+                    <div class="next"><img src="./images/arrow_next.png" alt=""></div>
+                </div>
+            </div>
+
+            <div class="row top100-wrap justify-content-center justify-content-xl-end">
+                <div class="top100-bottomtext">
+                    <p>分析期間：2020/11/18~2021/02/15</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE AD -->
+    <div class="container">
+        <div class="d-none d-xl-block">
+            <div class="google-ad">
+                <img src="./images/google-ad01.png" alt="">
+            </div>
+        </div>
+        <div class="d-xl-none">
+            <div class="google-ad-s">
+                <img src="./images/google-ad01-small.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 網路爆紅  1200px以下顯示-->
+    <section class="red-hot-article-wrap d-xl-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="hot-article-title">
+                    <p>網路爆紅</p>
+                </div>
+            </div>
+            <div class="row justify-content-center justify-content-sm-around justify-content-md-between">
+                <div class="hot-article-arrow ">
+                    <div class="prev"><img src="./images/arrow_prev.png" alt=""></div>
+                </div>
+                <div class="hot-article-content">
+                    <div class="hot-article-pic"><img src="./images/red-hot-article-pic01.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>過年不想自己煮！5大「新時代團圓餐」一樣能有餐廳般的高級享受</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-sm-block">
+                    <div class="hot-article-pic"><img src="./images/red-hot-article-pic02.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>民眾熱議3大補助！2021電動機車補助回歸　北市搶先公布汰購1萬9千元大紅包</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-md-block">
+                    <div class="hot-article-pic"><img src="./images/red-hot-article-pic03.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>防疫新生活抗3C藍光！網友熱議「護眼神片」聲量爆衝</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-lg-block">
+                    <div class="hot-article-pic"><img src="./images/red-hot-article-pic04.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>安全糾察隊！5大汽座眉角爸媽們一次也不能做錯</p>
+                    </div>
+                </div>
+                <div class="hot-article-arrow ">
+                    <div class="next"><img src="./images/arrow_next.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 熱門文章 -->
+    <section class="hot-article-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="hot-article-title">
+                    <p>熱門文章</p>
+                </div>
+            </div>
+            <div class="row justify-content-center justify-content-sm-around justify-content-md-between">
+                <div class="hot-article-arrow ">
+                    <div class="prev"><img src="./images/arrow_prev.png" alt=""></div>
+                </div>
+                <div class="hot-article-content">
+                    <div class="hot-article-pic"><img src="./images/hot-article-pic01.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>日本人無極限！珍珠麻婆豆腐還不夠　「小籠包鯛魚燒」網崩潰：不要再玩食物</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-sm-block">
+                    <div class="hot-article-pic"><img src="./images/hot-article-pic02.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>被爆鮮奶飲品加紅茶！迷客夏急澄清「店員應主動提醒」　釣出前員工打臉爆料</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-md-block">
+                    <div class="hot-article-pic"><img src="./images/hot-article-pic03.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>醬油膏是鹹的！台南人北上最不能接受的10件事　一半跟食物有關</p>
+                    </div>
+                </div>
+                <div class="hot-article-content d-none d-lg-block">
+                    <div class="hot-article-pic"><img src="./images/hot-article-pic04.jpg" alt=""></div>
+                    <div class="hot-article-text">
+                        <p>找不到人就口出惡言！「大小姐」吳兆絃被爆大頭症　網傻眼：超沒禮貌</p>
+                    </div>
+                </div>
+                <div class="hot-article-arrow ">
+                    <div class="next"><img src="./images/arrow_next.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 熱文榜 -->
+    <section class="hotart-rank-wrap">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="hotart-rank-left col-12 col-md-11 col-lg-10 col-xl-8 px-3 px-md-5 px-lg-5 px-xl-0">
+                    <div class="hotart-rank-title mx-auto mx-xl-0"><img src="./images/hot_title.png" alt=""></div>
+                    <div class="hotart-rank-titleline"></div>
+                    <div class="hotart-rank-content hr-content01 px-2">
+                        <div class="rank-contenttitle">
+                            <p>熱FB</p>
+                        </div>
+                        <div class="rank-contentlist d-flex flex-wrap">
+                            <div class="rank-content col-12 col-xl-4 px-0 pl-xl-0 pr-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>1</span>富發牌</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>116,644</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank01.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>新春首播</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 px-xl-1">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>2</span>張文綺 Shiny</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>93,721</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank02.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>開工了
+                                    #今天我是鹽酥雞女王
+                                    #聽過想過千萬別錯過
+                                    #開工大吉
+                                    #高雄市小港區二苓路168號
+                                    #感謝主與我們同在</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 pr-xl-0 pl-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>3</span>Halo-Mavix國際連線</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>78,012</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank03.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>公開分享+關鍵字"深夜場來了"</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rank-contentmore">
+                            <a href="">MORE</a>
+                        </div>
+                    </div>
+                    <div class="hotart-rank-content hr-content02 px-2">
+                        <div class="rank-contenttitle">
+                            <p>熱PTT</p>
+                        </div>
+                        <div class="rank-contentlist d-flex flex-wrap">
+                            <div class="rank-content col-12 col-xl-4 px-0 pl-xl-0 pr-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>1</span>漫畫聊天板</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>2,332</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank04.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>[討論] [Vtub] Hololive 晚間直播單（1100215）Part 2</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 px-xl-1">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>2</span>網球板</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>2,280</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank05.png" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>[LIVE] 謝淑薇 vs. N. Osaka</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 pr-xl-0 pl-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>3</span>PCReDive</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>2,248</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank06.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>[Live] 三週年生放送討論暨聊天串</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rank-contentmore">
+                            <a href="">MORE</a>
+                        </div>
+                    </div>
+                    <div class="hotart-rank-content hr-content03 px-2">
+                        <div class="rank-contenttitle">
+                            <p>熱新聞</p>
+                        </div>
+                        <div class="rank-contentlist d-flex flex-wrap">
+                            <div class="rank-content col-12 col-xl-4 px-0 pl-xl-0 pr-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>1</span>蘋果新聞網</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>9,831</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img class="picfix02" src="./images/rank07.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>肇事者的老闆說，這樣的行為會嚴重影響到公司
+                                        挺蘋果！新聞即點即看
+                                        　
+                                        【小黑瞑目！靈前跪拜上香「我自己就是畜生」輾狗男吞苦果　老闆：明天不用去上班了】
+                                        https://tw.appledaily.com/local/20210215/JUWQJMF2G5GU3EDW4T75BK5N2A/
+                                        　
+                                        掌握時事，《蘋果》APP免費下載→https://tw.adai.ly/h70aWHaF23
+                                        看《蘋果》無廣告，升級壹會員獨享→http://bit.ly/2Z9Gqny
+                                        #蘋果社會 #虐待動物</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 px-xl-1">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>2</span>蘋果新聞網</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>10,433</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img class="picfix02" src="./images/rank08.jpg" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>恭喜 #莫彩曦 可以長住台灣啦！
+                                        挺蘋果！新聞即點即看
+                                        　
+                                        【百萬訂閱美籍YouTuber莫彩曦圓夢　申獲就業金卡可長住台灣】
+                                        https://tw.appledaily.com/local/20210216/ZDGADXIM5ZDITHUIMZ3H4KIFCQ/
+                                        　
+                                        掌握時事，《蘋果》APP免費下載→https://tw.adai.ly/h70aWHaF23
+                                        看《蘋果》無廣告，升級壹會員獨享→http://bit.ly/2Z9Gqny
+                                        #台灣 #就業金卡 #網紅 #Youtuber Hailey莫彩曦 #Adam</p>
+                                </div>
+                            </div>
+                            <div class="rank-content col-12 col-xl-4 px-0 pr-xl-0 pl-xl-2">
+                                <div class="rank-up-content d-flex justify-content-between align-items-baseline">
+                                    <div class="text">
+                                        <p><span>3</span>ETtoday新聞雲</p>
+                                    </div>
+                                    <div class="share">
+                                        <p><i class="fas fa-share-alt"></i>9,889</p>
+                                    </div>
+                                </div>
+                                <div class="rank-picture d-none d-xl-block">
+                                    <img src="./images/rank09.jfif" alt="">
+                                </div>
+                                <div class="rank-bottom-content">
+                                    <p>我這幾天已經點了很多次了！！！！氣氣氣氣氣氣氣氣氣不要再端火鍋了（#豬頭皮）</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rank-contentmore">
+                            <a href="">MORE</a>
+                        </div>
+                    </div>
+                    <div class="hotart-rank-bottomtext px-2 text-center text-xl-right">
+                        <p>更新時間 : 2021/02/16 17:50</p>
+                    </div>
+                </div>
+                <div class="hotart-rank-right col-12 col-md-11 col-lg-10 col-xl-4 px-3 px-md-5 px-lg-5 pr-xl-0 pl-xl-4">
+                    <div class="google-ad02">
+                        <img src="./images/google-ad02.png" alt="">
+                    </div>
+                    <div class="facebook d-none d-xl-block">
+                        <iframe
+                            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDailyView.tw%2F&tabs=timeline&width=390&height=650&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId=305878292803488"
+                            height="650" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                            allowfullscreen="true"
+                            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                    </div>
+                    <div class="project-wrap">
+                        <div class="project-title">
+                            <p>特別報導</p>
+                        </div>
+                        <div class="project-slide d-flex justify-content-between">
+                            <div class="project-arrow ">
+                                <div class="prev"><img src="./images/arrow_prev.png" alt=""></div>
+                            </div>
+                            <div class="pro-pic-left"><img src="./images/project01.jpg" alt=""></div>
+                            <div class="pro-pic-right"><img src="./images/project02.png" alt=""></div>
+                            <div class="project-arrow ">
+                                <div class="next"><img src="./images/arrow_next.png" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="up-footer-wrap">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="footer-bt d-flex col-12 col-xl-6 justify-content-center justify-content-xl-end">
+                        <div class="item"><img src="./images/footer_fb.png" alt=""></div>
+                        <div class="item"><img src="./images/footer_ig.png" alt=""></div>
+                        <div class="item"><img src="./images/footer_yt.png" alt=""></div>
+                        <div class="item"><img src="./images/footer_line.png" alt=""></div>
+                        <div class="item"><img src="./images/footer_tele.png" alt=""></div>
+                    </div>
+                    <div
+                        class="subs-email col-12 col-xl-6 d-flex justify-content-center justify-content-xl-start align-items-center">
+                        <input type="text" placeholder="填寫E-mail訂閱電子報">
+                        <button>我要訂閱</button>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <ul class="f-navlist d-flex justify-content-center ">
+                        <li class="item f-navitem01">關於DailyView</li>
+                        <li class="item f-navitem02">聯絡我們</li>
+                        <li class="item f-navitem03">服務條款</li>
+                        <li class="item f-navitem04">隱私權條款</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="down-footer-wrap">
+            <p>Copyright © </p>
+            <p>2014-2021 DailyView All rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
